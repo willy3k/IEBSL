@@ -14,6 +14,7 @@ export const Sectionc = styled.section`
     font-size: 45px;
   }
   span {
+    text-align: center;
     font-size: 25px;
     opacity: 0.3;
     margin-bottom: 20px;
