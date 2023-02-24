@@ -21,12 +21,12 @@ export default function Ministerio() {
         </div>
         <div className="card">
           <HiUserGroup className="i" />
-          <h2>Perulas</h2>
+          <h2>Perolas</h2>
           <p>
             Todos os Sábados, as 2h temos o encontro da Mulheres, em lugares
             diferetes{' '}
           </p>
-          <a href="/">
+          <a href="/SobrePerolas">
             <button type="submit">Saiba mais </button>
           </a>
         </div>
@@ -37,7 +37,9 @@ export default function Ministerio() {
             O ministério de jovens mulheres, se reúne nas sextas, a cada 8 dias,
             as 6 horas.
           </p>
-          <button type="submit">Saiba mais</button>
+          <a href="/SobreLuluzinhas">
+            <button type="submit">Saiba mais</button>
+          </a>
         </div>
         <div className="card">
           <FaUserTie className="i" />
@@ -46,7 +48,9 @@ export default function Ministerio() {
             O Ministério de Homens, se reúne todas as sextas, em lugares
             diferetes, as 6h:30m.
           </p>
-          <button type="submit">Saiba mais</button>
+          <a href="/SobreBolinhas">
+            <button type="submit">Saiba mais</button>
+          </a>
         </div>
       </div>
     </Sectionc>
