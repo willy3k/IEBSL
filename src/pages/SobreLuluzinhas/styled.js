@@ -52,7 +52,7 @@ export const SecInicio = styled.section`
       justify-content: center;
       flex-direction: column;
       position: absolute;
-      margin-top: 5rem;
+      margin-top: 3rem;
     }
   }
 `;
