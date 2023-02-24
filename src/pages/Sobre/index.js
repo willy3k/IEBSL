@@ -11,7 +11,7 @@ export default function Ministerio() {
       <div className="center">
         <div className="descri">
           <h3>Quem Nós somos</h3>
-          <h2>Igreja Batista Evangelica Em São Lazaro</h2>
+          <h2>Igreja Evangelica Batista Em São Lazaro</h2>
           <p>
             Fundada em 7 de dezembro 1942, a Igreja Batista do Fragata tem sido
             instrumento de proclamação do evangelho e edificação dos cristãos na

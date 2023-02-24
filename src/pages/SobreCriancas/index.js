@@ -55,6 +55,13 @@ export default function SobreCriancas() {
           <div className="cards">
             <div className="desc">
               <h2>EBD Na pratica</h2>
+              <p>
+                Aprendendo Na pratica, atraves de ensenaçoes de passagem
+                biblicas, para que assim eles possam aprendem atraves deles
+                mesmos, usando a imaginaçoes deles, e assim poderem aprender
+                cada vez mais de Cristo, e sem contar que e de uma forma
+                divertida, e simples.
+              </p>
             </div>
             <div className="imge">
               <img src={ebdNaPratica} alt="" />
@@ -69,6 +76,13 @@ export default function SobreCriancas() {
             </div>
             <div className="desc">
               <h2>Aprendendo Os Livros da Biblias</h2>
+              <p>
+                Aprendendo os Livros da bíblia, De forma pratica, para o
+                aprendizado tecnicos deles desde do inico, para que no futuro
+                não tenha dificuldades nesse aspecto, sem conta que amplia os
+                conhecimentos deles, e assim dispertando o interesse de querer
+                saber o que esta escrito em cada livro e o que acontece neles.
+              </p>
             </div>
           </div>
         </div>
@@ -77,6 +91,10 @@ export default function SobreCriancas() {
           <div className="cards">
             <div className="desc">
               <h2>Ganhando Ovo da Pascoa</h2>
+              <p>
+                Dia de Presente, além de muita estudo, aprendizado e diverção,
+                Presente, ove da pascoa.
+              </p>
             </div>
             <div className="imge">
               <img src={diaPascoa} alt="" />
