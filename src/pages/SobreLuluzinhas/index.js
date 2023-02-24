@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
-import { SecSobrePerolas, SecInicio, Footerr } from './styled';
+import { SecSobreLuluzinhas, SecInicio, Footerr } from './styled';
 import luluzinhasC from '../../assets/img/luluzinhasC.jpg';
 import luluzinhasI from '../../assets/img/luluzinhasI.jpeg';
 import luluzinhasD from '../../assets/img/luluzinhasD.jpeg';
@@ -19,11 +19,11 @@ export default function SobreLuluzinhas() {
           </div>
         </div>
       </SecInicio>
-      <SecSobrePerolas>
+      <SecSobreLuluzinhas>
         <h2>Ministério das Luluzinhas</h2>
         <div className="card">
           <p>
-            Ministério com crianças chamado de ebd. <br />
+            Ministério Com Jovens Mulheres. <br />
             Todas as sextas ás 6h, as meninas participam de um encontro. O
             objetivo desse encontro é ensinar a Bíblia, mostrando o amor de Deus
             e os ensinamentos de Sua Palavra.
@@ -96,7 +96,7 @@ export default function SobreLuluzinhas() {
             </div>
           </div>
         </div>
-      </SecSobrePerolas>
+      </SecSobreLuluzinhas>
       <Footerr>
         <footer>
           <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>

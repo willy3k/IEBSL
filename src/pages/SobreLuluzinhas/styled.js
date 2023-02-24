@@ -56,7 +56,7 @@ export const SecInicio = styled.section`
     }
   }
 `;
-export const SecSobrePerolas = styled.section`
+export const SecSobreLuluzinhas = styled.section`
   padding: 50px 30px;
 
   display: flex;
