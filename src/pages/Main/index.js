@@ -19,7 +19,13 @@ export default function Main() {
           <div className="Chamada">
             <h1>Venha nos visitar!</h1>
             <span>Panelas,PE, são lazaro</span>
-            <button type="submit">Instagram</button>
+            <a
+              href="https://www.instagram.com/ieb.saolazaro/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button type="submit">Instagram</button>
+            </a>
             <h3>Role a página para mais informaçõe</h3>
           </div>
         </div>
