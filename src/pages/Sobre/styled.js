@@ -39,4 +39,11 @@ export const Sectionc = styled.section`
     width: 100%;
     height: 100%;
   }
+
+  @media (max-width: 900px) {
+    .img {
+      width: 600px;
+      height: 300px;
+    }
+  }
 `;
