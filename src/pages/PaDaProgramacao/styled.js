@@ -20,11 +20,10 @@ export const SecSobreNos = styled.section`
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    box-shadow: 50px 30px white, 100px 80px white, 80px 120px white,
-      300px 20px white, 250px 130px white, 200px 50px white, 150px 100px white,
-      320px 100px white;
+    box-shadow: 10px 10px white, 5px 50px white, 40px 90px white,
+      200px 10px white, 200px 140px white, 40px 70px white, 190px 100px white,
+      300px 90px white;
     animation: anim-stars 10s linear infinite;
-    transition: 1s;
   }
 
   @keyframes anim-stars {

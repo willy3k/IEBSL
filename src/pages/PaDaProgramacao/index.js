@@ -27,15 +27,15 @@ export default function PaDaProgramacao() {
           <div className="fundo2">
             <div className="stars" />
           </div>
-          {/* <div className="fundo2">
-            <div className="stars" />
-          </div>
           <div className="fundo2">
             <div className="stars" />
           </div>
           <div className="fundo2">
             <div className="stars" />
-          </div> */}
+          </div>
+          <div className="fundo2">
+            <div className="stars" />
+          </div>
 
           {/* <img src={fundo} alt="" /> */}
           <div className="title">
