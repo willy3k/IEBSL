@@ -30,7 +30,7 @@ export default function Cultos() {
           </div>
         </div>
         <div className="cards">
-          <h3>Sábador</h3>
+          <h3>Sábado</h3>
           <div className="cultos">
             <div className="ct">
               <span>EBD das Criaças</span>
