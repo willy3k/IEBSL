@@ -17,12 +17,12 @@ export const SecSobreNos = styled.section`
     height: 450px;
   }
   .stars {
-    width: 4px;
-    height: 4px;
+    width: 3px;
+    height: 3px;
     border-radius: 50%;
-    box-shadow: 10px 10px white, 5px 50px white, 40px 90px white,
-      200px 10px white, 200px 140px white, 40px 70px white, 190px 100px white,
-      300px 90px white;
+    box-shadow: 10px 5px white, 5px 60px white, 40px 100px white,
+      200px 100px white, 70px 160px white, 30px 130px white, 5px 90px white,
+      15px 0px white;
     animation: anim-stars 10s linear infinite;
   }
 
