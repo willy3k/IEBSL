@@ -99,6 +99,12 @@ export const SecSobreCriancas = styled.section`
   p {
     opacity: 0.8;
   }
+  @media (max-width: 900px) {
+    .imge {
+      width: 600px;
+      height: 300px;
+    }
+  }
 `;
 export const Footerr = styled.footer`
   display: flex;
