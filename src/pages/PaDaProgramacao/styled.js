@@ -151,6 +151,12 @@ export const SecProgramaçao = styled.section`
     font-size: 20px;
     margin-bottom: 10px;
   }
+
+  @media (max-width: 900px) {
+    .card {
+      width: 100%;
+    }
+  }
 `;
 
 export const Footerr = styled.footer`
