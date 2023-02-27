@@ -7,12 +7,12 @@ export const SecSobreNos = styled.section`
 
   .fundo {
     display: flex;
-    position: relative;
+    /* position: relative; */
     width: 100%;
     color: white;
   }
   .fundo2 {
-    background: linear-gradient(0, #120c56, #000000);
+    background: linear-gradient(0, black, #000000);
     width: 100%;
     height: 450px;
   }
@@ -37,7 +37,7 @@ export const SecSobreNos = styled.section`
   }
   img {
     background: black;
-    opacity: 0.2;
+    /* opacity: 0.2; */
     width: 100%;
     height: 450px;
   }
@@ -66,7 +66,7 @@ export const SecSobreNos = styled.section`
     height: 250px;
 
     .fundo2 {
-      background: linear-gradient(0, #120c56, #000000);
+      background: linear-gradient(0, black, #000000);
       width: 100%;
       height: 250px;
     }
