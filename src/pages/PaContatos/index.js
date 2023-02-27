@@ -7,7 +7,26 @@ export default function PaContato() {
   return (
     <Container>
       <SecContato>
-        <h2>Contato</h2>
+        <h1>Entre em Contato</h1>
+        <form>
+          <label htmlFor="nome">
+            Nome
+            <input type="text" name="nome" />
+          </label>
+          <label htmlFor="email">
+            Email
+            <input type="email" name="textare" />
+          </label>
+          <label htmlFor="assunto">
+            Assunto
+            <input type="text" name="assunto" />
+          </label>
+          <label htmlFor="textare">
+            Sua mensagem
+            <textarea name="textare" cols="30" rows="10" />
+          </label>
+          <button type="submit">Enviar</button>
+        </form>
       </SecContato>
       <Footerr>
         <footer>
