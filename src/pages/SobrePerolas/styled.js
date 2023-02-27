@@ -99,6 +99,17 @@ export const SecSobrePerolas = styled.section`
   p {
     opacity: 0.8;
   }
+  @media (max-width: 900px) {
+    .imge {
+      width: 600px;
+      height: 300px;
+    }
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 `;
 export const Footerr = styled.footer`
   display: flex;

@@ -104,6 +104,11 @@ export const SecSobreCriancas = styled.section`
       width: 600px;
       height: 300px;
     }
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;
 export const Footerr = styled.footer`
