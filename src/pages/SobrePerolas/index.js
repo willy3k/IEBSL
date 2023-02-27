@@ -1,51 +1,44 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
 import { SecSobrePerolas, SecInicio, Footerr } from './styled';
-import sobreC from '../../assets/img/sobreC.jpeg';
-import EBD from '../../assets/img/diaEBD.jpeg';
-import ebdNaPratica from '../../assets/img/ebdNaPratica.jpeg';
-import ensinando from '../../assets/img/ensinando.jpeg';
-import diaPascoa from '../../assets/img/diaPascoa.jpeg';
+import perolas from '../../assets/img/perolas.jpeg';
+import perolas5 from '../../assets/img/perolas5.jpeg';
+import perolas3 from '../../assets/img/perolas3.jpeg';
+import perolas4 from '../../assets/img/perolas4.jpeg';
 
 export default function SobrePerolas() {
   return (
     <Container>
       <SecInicio>
         <div className="fundo">
-          <img src={sobreC} alt="" />
+          <img src={perolas} alt="" />
           <div className="title">
-            <span>EBD da Crianças</span>
-            <h1>
-              Nossa <samp>EBD</samp> das Crianças
-            </h1>
+            <span>PEROLAS</span>
+            <h1>Nosso Ministérios De mulheres</h1>
           </div>
         </div>
       </SecInicio>
       <SecSobrePerolas>
-        <h2>Ministério de Crianças</h2>
+        <h2>Ministério de Mulheres</h2>
         <div className="card">
           <p>
-            Ministério com crianças chamado de ebd. <br />
-            Durante o sábado pela manhã, as crianças participam de uma aula. O
-            objetivo dessa aula é ensinar a Bíblia em uma linguagem que as
-            crianças tenham maior facilidade de entender, mostrando o amor de
-            Deus e os ensinamentos de Sua Palavra.
+            Ministério com Mulheres Chamado de Perolas. <br />
+            Durante o sábado pela tarde as 2h, as Mulheres participam de uma
+            encontro. O objetivo desse encontro é ensinar a Bíblia,e mostrando o
+            amor de Deus e aprender que justas São mais fortes.
           </p>
         </div>
         <div className="card segundo">
           <div className="cards">
             <div className="imge">
-              <img src={EBD} alt="" />
+              <img src={perolas} alt="" />
             </div>
             <div className="desc">
-              <h2>Escola Biblica</h2>
+              <h2>Culto da Familía</h2>
               <p>
-                Escola Biblica das Nossas crianças, todos os sabádos, tem essa
-                aula, que ensina da maneira simples e pratica, que elas venha a
-                entender e aprender cada vez mais que Deus é o salvador, que ele
-                é o omega e alfa(começo e o fim), e que todas as coisas foram
-                feitas por ele, e que desse forma elas possa aprender e logo
-                conseguir suas familias para cristo.
+                Culto da familía, Esse dia foi maravilhoso, Nossas Perolas
+                cantando, que dia inesquecivel, Deus sejá Louvado por essas
+                Mulheres de Deus, esse grupo e uma benção em nossa igreja.
               </p>
             </div>
           </div>
@@ -54,17 +47,15 @@ export default function SobrePerolas() {
         <div className="card">
           <div className="cards">
             <div className="desc">
-              <h2>EBD Na pratica</h2>
+              <h2>Encontro das perolas</h2>
               <p>
-                Aprendendo Na pratica, atraves de ensenaçoes de passagem
-                biblicas, para que assim eles possam aprendem atraves deles
-                mesmos, usando a imaginaçoes deles, e assim poderem aprender
-                cada vez mais de Cristo, e sem contar que e de uma forma
-                divertida, e simples.
+                Esse grupo de mulheres, é muito determinado, Elas não param, se
+                Deus da uma missão a elas, elas não pensam duas vezes para
+                fazer, estão em constante oração umas pelas as outras.
               </p>
             </div>
             <div className="imge">
-              <img src={ebdNaPratica} alt="" />
+              <img src={perolas3} alt="" />
             </div>
           </div>
         </div>
@@ -72,16 +63,16 @@ export default function SobrePerolas() {
         <div className="card segundo">
           <div className="cards">
             <div className="imge">
-              <img src={ensinando} alt="" />
+              <img src={perolas4} alt="" />
             </div>
             <div className="desc">
-              <h2>Aprendendo Os Livros da Biblias</h2>
+              <h2>Encontro na casa da irmão Fatma</h2>
               <p>
-                Aprendendo os Livros da bíblia, De forma pratica, para o
-                aprendizado tecnicos deles desde do inico, para que no futuro
-                não tenha dificuldades nesse aspecto, sem conta que amplia os
-                conhecimentos deles, e assim dispertando o interesse de querer
-                saber o que esta escrito em cada livro e o que acontece neles.
+                Encontro abençoado na casa da irmão fatma, Uma visita abençoada,
+                Como e bom momentos como esses, assim como os outros grupos,
+                Deus fala grandemente na vida dessas bençãos.´Provébios 14:1 A
+                mulher sábia edifica a suas casa, mais com as próprias mãos a
+                insensata derruba a sua casa´.
               </p>
             </div>
           </div>
@@ -90,14 +81,16 @@ export default function SobrePerolas() {
         <div className="card">
           <div className="cards">
             <div className="desc">
-              <h2>Ganhando Ovo da Pascoa</h2>
+              <h2>Lanche das Perolas</h2>
               <p>
-                Dia de Presente, além de muita estudo, aprendizado e diverção,
-                Presente, ove da pascoa.
+                Essas Perolas, são demais, todos os encontro depois, tem um
+                lanchinho que uma delicia, depois de uma encontro abençoado,
+                lanchar e conversa um pouco, por que isso trás, uma comunhão
+                maravilhosa e saúdavel.
               </p>
             </div>
             <div className="imge">
-              <img src={diaPascoa} alt="" />
+              <img src={perolas5} alt="" />
             </div>
           </div>
         </div>
