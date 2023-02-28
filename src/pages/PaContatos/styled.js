@@ -66,7 +66,21 @@ export const SecContato = styled.section`
       box-shadow: none;
     }
     button {
+      width: 100%;
       background: ${colors.primaryHeader};
+    }
+    label {
+      width: 100%;
+    }
+    input {
+      color: white;
+      border: 2px solid ${colors.primaryHeader};
+      background: ${colors.primaryDarkColor};
+    }
+    textarea {
+      color: white;
+      border: 2px solid ${colors.primaryHeader};
+      background: ${colors.primaryDarkColor};
     }
   }
 `;
