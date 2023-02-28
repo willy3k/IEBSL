@@ -21,7 +21,7 @@ html, body, #root {
 
 button{
   cursor: pointer;
-  background: ${colors.primaryDarkColor};
+  background: ${colors.primaryHeader};
   border: none;
   color: white;
   padding: 10px 20px;
@@ -29,7 +29,7 @@ button{
   font-weight: 700;
   transition: 1s;
   &:hover {
-    background: ${colors.primaryHeader};
+    background: ${colors.primaryDarkColor};
   }
 }
 

@@ -54,9 +54,7 @@ export const SecContato = styled.section`
     padding: 10px;
     border-radius: 8px;
     width: 90%;
-    &:hover {
-      background: ${colors.sucessColor};
-    }
+    background: ${colors.primaryDarkColor};
   }
 
   @media (max-width: 900px) {
