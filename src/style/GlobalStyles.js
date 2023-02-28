@@ -43,6 +43,7 @@ ul {
 }
 
 body .Toastify .Toastify__toast-container .Toastify__toast--success {
+  color: width;
   background: ${colors.sucessColor};
 }
 body .Toastify .Toastify__toast-container .Toastify__toast--error {

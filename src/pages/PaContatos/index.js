@@ -35,6 +35,7 @@ export default function PaContato() {
       )
       .then(
         (response) => {
+          // eslint-disable-next-line no-console
           console.log('Email Enviado', response.status, response.text);
           setNome('');
           setEmail('');
@@ -42,6 +43,7 @@ export default function PaContato() {
           setMensagem('');
         },
         (err) => {
+          // eslint-disable-next-line no-console
           console.log('Error: ', err);
         }
       );
