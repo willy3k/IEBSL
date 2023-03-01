@@ -12,7 +12,6 @@ export default createGlobalStyle`
 
 body {
   font-family: sans-serif;
-  background: ${colors.primaryDarkColor};
 }
 
 html, body, #root {
@@ -53,7 +52,5 @@ body .Toastify .Toastify__toast-container .Toastify__toast--error {
 
 export const Container = styled.section`
   margin: auto;
-  max-width: 1600px;
   background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;

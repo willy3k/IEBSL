@@ -1,13 +1,13 @@
 import styled from 'styled-components';
-import * as colors from '../../config/colors';
 
 export const SectFoot = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: ${colors.primaryDarkColor};
+  background: transparent;
   color: white;
   padding: 30px;
+  color: black;
 
   .foote {
     display: flex;

@@ -4,6 +4,8 @@ import * as colors from '../../config/colors';
 export const Nav = styled.nav`
   background: ${colors.primaryHeader};
   padding: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0 5px 4px 1px rgba(1, 32, 132, 0.8);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -13,8 +15,8 @@ export const Nav = styled.nav`
     width: 90px;
     height: 80px;
   }
+
   img {
-    background: transparent;
     width: 100%;
     height: 100%;
   }
@@ -41,7 +43,6 @@ export const Nav = styled.nav`
     outline: none;
     color: white;
     visibility: hidden;
-    opacity: ;
   }
 
   @media only screen and (max-width: 900px) {
