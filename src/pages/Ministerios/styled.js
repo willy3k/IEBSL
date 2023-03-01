@@ -24,7 +24,6 @@ export const Sectionc = styled.section`
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    align-items: ;
     justify-content: center;
   }
   .card {
@@ -36,8 +35,19 @@ export const Sectionc = styled.section`
     justify-content: center;
     width: 300px;
     border-radius: 8px;
-    box-shadow: 1px 3px 4px 1px ${colors.primaryHeader};
+    box-shadow: 1px 3px 4px 1px rgba(1, 30, 132, 0.5);
   }
+  .card:hover {
+    transform: scale(1.05);
+    transition: all ease 600ms;
+    cursor: pointer;
+  }
+
+  img {
+    width: 35px;
+    margin: 30px 0;
+  }
+
   .i {
     color: ${colors.primaryHeader};
     font-size: 35px;
@@ -60,6 +70,8 @@ export const Sectionc = styled.section`
     padding: 10px 30px;
     margin: 20px 0;
     &:hover {
+      background: rgba(1, 40, 132, 0.9);
+      transition: all ease 200ms;
     }
   }
 `;

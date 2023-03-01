@@ -141,23 +141,3 @@ export const Bolinhas = styled.section`
     opacity: 0.7;
   }
 `;
-
-export const Footerr = styled.footer`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: ${colors.primaryDarkColor};
-  color: white;
-  padding: 30px;
-
-  footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  h4 {
-    margin-bottom: 10px;
-  }
-`;

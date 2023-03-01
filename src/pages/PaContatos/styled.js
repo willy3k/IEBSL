@@ -3,14 +3,15 @@ import * as colors from '../../config/colors';
 
 export const SecContato = styled.section`
   margin-top: 50px;
-  background: ${colors.primaryDarkColor};
+  /* background: ${colors.primaryDarkColor}; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   h1 {
     font-size: 35px;
-    color: white;
+    /* color: white; */
+    color: black;
     margin: 30px 0;
   }
   form {
@@ -23,6 +24,7 @@ export const SecContato = styled.section`
     border-radius: 15px;
     background: ${colors.primaryHeader};
     box-shadow: 1px 1px 4px 1px white;
+    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
   }
   label {
@@ -55,11 +57,13 @@ export const SecContato = styled.section`
     border-radius: 8px;
     width: 90%;
     background: ${colors.primaryDarkColor};
+    background: rgba(5, 35, 120);
+    border: solid 1px white;
+    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.5);
   }
 
   @media (max-width: 900px) {
     form {
-      background: ${colors.primaryDarkColor};
       width: 90%;
       box-shadow: none;
     }

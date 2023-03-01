@@ -14,7 +14,6 @@ export const Sectionc = styled.section`
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
   }
 

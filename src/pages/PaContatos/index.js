@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
 import { Container } from '../../style/GlobalStyles';
-
-import { SecContato, Footerr } from './styled';
+import Footer from '../Footer';
+import { SecContato } from './styled';
 
 export default function PaContato() {
   const [nome, setNome] = useState('');
@@ -97,12 +97,7 @@ export default function PaContato() {
           <button type="submit">Enviar</button>
         </form>
       </SecContato>
-      <Footerr>
-        <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
-        </footer>
-      </Footerr>
+      <Footer />
     </Container>
   );
 }

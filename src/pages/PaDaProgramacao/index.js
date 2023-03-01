@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
-// import fundo from '../../assets/img/fundo3.jpeg';
 
 import { SecSobreNos, SecProgramaçao, Footerr } from './styled';
 
