@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaUserAlt, FaUserTie } from 'react-icons/fa';
 import { HiUserGroup } from 'react-icons/hi';
+import UserFemale from '../../assets/img/user-female.png';
 
 import { Sectionc } from './styled';
 
@@ -31,7 +32,7 @@ export default function Ministerio() {
           </a>
         </div>
         <div className="card">
-          <FaUserAlt className="i" />
+          <img src={UserFemale} alt="" />
           <h2>Luluzinhas</h2>
           <p>
             O ministério de jovens mulheres, se reúne nas sextas, a cada 8 dias,

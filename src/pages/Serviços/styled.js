@@ -8,6 +8,9 @@ export const SectServ = styled.footer`
   background: ${colors.primaryHeader};
   color: white;
   padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.4);
+  margin: 5px;
 
   .servi {
     margin: 30px 0;

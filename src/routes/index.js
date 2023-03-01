@@ -25,7 +25,7 @@ export default function Routes() {
       <MyRoute exact path="/SobreCriancas" component={SebreCriancas} />
       <MyRoute exact path="/SobrePerolas" component={SobrePerolas} />
       <MyRoute exact path="/SobreLuluzinhas" component={SobreLuluzinhas} />
-      <MyRoute exact path="/SobreBolinhas" component={SobreBolinhas} />
+      <MyRoute exact path="/sobre-bolinhas" component={SobreBolinhas} />
     </Switch>
   );
 }

@@ -8,13 +8,15 @@ export const Sectionc = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.4);
+  margin: 5px;
 
   section {
     padding-top: 10px;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
   }
 
