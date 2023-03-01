@@ -10,6 +10,7 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  top: 0;
 
   .log {
     width: 90px;
