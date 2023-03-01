@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
-import { SecSobrePerolas, SecInicio, Footerr } from './styled';
+import Footer from '../../components/Footer';
+
+import { SecSobrePerolas, SecInicio } from './styled';
 import bolinhas from '../../assets/img/bolinhas.jpg';
 import bolinhasI from '../../assets/img/bolinhasI.jpeg';
 import encontroEdson from '../../assets/img/encontroEdson.jpeg';
@@ -99,12 +101,7 @@ export default function SobreBolinhas() {
           </div>
         </div>
       </SecSobrePerolas>
-      <Footerr>
-        <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
-        </footer>
-      </Footerr>
+      <Footer />
     </Container>
   );
 }

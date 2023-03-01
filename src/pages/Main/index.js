@@ -1,11 +1,11 @@
 import React from 'react';
 
 import fundo from '../../assets/img/fundo3.jpeg';
-import Ministerio from '../Ministerios';
-import Cultos from '../Cultos';
-import Sobre from '../Sobre';
-import Serviços from '../Serviços';
-import Footer from '../Footer';
+import Ministerio from '../../components/Ministerios';
+import Cultos from '../../components/Cultos';
+import Sobre from '../../components/Sobre';
+import Serviços from '../../components/Serviços';
+import Footer from '../../components/Footer';
 
 import { Container } from '../../style/GlobalStyles';
 import { Fundo } from './styled';

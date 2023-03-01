@@ -53,4 +53,5 @@ body .Toastify .Toastify__toast-container .Toastify__toast--error {
 export const Container = styled.section`
   margin: auto;
   background: #fff;
+  height: 80%;
 `;

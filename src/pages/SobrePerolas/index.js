@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
-import { SecSobrePerolas, SecInicio, Footerr } from './styled';
+import Footer from '../../components/Footer';
+
+import { SecSobrePerolas, SecInicio } from './styled';
 import perolas from '../../assets/img/perolas.jpeg';
 import perolas5 from '../../assets/img/perolas5.jpeg';
 import perolas3 from '../../assets/img/perolas3.jpeg';
@@ -95,12 +97,7 @@ export default function SobrePerolas() {
           </div>
         </div>
       </SecSobrePerolas>
-      <Footerr>
-        <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
-        </footer>
-      </Footerr>
+      <Footer />
     </Container>
   );
 }

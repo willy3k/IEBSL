@@ -8,6 +8,7 @@ export const SectFoot = styled.footer`
   color: white;
   padding: 30px;
   color: black;
+  width: 100%;
 
   .foote {
     display: flex;

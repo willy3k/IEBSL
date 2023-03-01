@@ -11,29 +11,7 @@ export const SecSobreNos = styled.section`
     width: 100%;
     color: white;
   }
-  .fundo2 {
-    background: linear-gradient(0, black, #000000);
-    width: 100%;
-    height: 450px;
-  }
-  .stars {
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    box-shadow: 10px 5px white, 5px 60px white, 40px 100px white,
-      200px 100px white, 70px 160px white, 30px 130px white, 5px 90px white,
-      15px 0px white;
-    animation: anim-stars 10s linear infinite;
-  }
 
-  @keyframes anim-stars {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(350px);
-    }
-  }
   img {
     background: black;
     /* opacity: 0.2; */
@@ -41,13 +19,13 @@ export const SecSobreNos = styled.section`
     height: 450px;
   }
   .title {
+    color: black;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
-    margin-top: 10rem;
+    margin-top: 4rem;
     transition: 1s;
   }
   span {
@@ -99,11 +77,10 @@ export const SecSobreNos = styled.section`
 `;
 
 export const SecProgramaçao = styled.section`
-  color: white;
-  border: 1px solid;
+  color: black;
   margin: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 
@@ -112,10 +89,18 @@ export const SecProgramaçao = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
-    background: ${colors.primaryDarkColor};
-    width: 85%;
+    margin: 70px 20px;
+    background: white;
+    width: 600px;
+    height: 250px;
     border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all ease 400ms;
+      cursor: pointer;
+    }
   }
   samp {
     font-size: 25px;
@@ -146,7 +131,7 @@ export const SecProgramaçao = styled.section`
     margin-bottom: 20px;
   }
   h3 {
-    border-left: 3px solid ${colors.primaryHeader};
+    border-left: 6px solid ${colors.primaryHeader};
     padding-left: 5px;
     font-size: 20px;
     margin-bottom: 10px;

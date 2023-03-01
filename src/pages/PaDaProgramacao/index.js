@@ -1,8 +1,9 @@
 import React from 'react';
+import Footer from '../../components/Footer';
 import { Container } from '../../style/GlobalStyles';
 // import fundo from '../../assets/img/fundo3.jpeg';
 
-import { SecSobreNos, SecProgramaçao, Footerr } from './styled';
+import { SecSobreNos, SecProgramaçao } from './styled';
 
 export default function PaDaProgramacao() {
   return (
@@ -10,7 +11,7 @@ export default function PaDaProgramacao() {
       <SecSobreNos>
         <div className="fundo">
           {/* <div className="fundo2">
-            <div className="stars" />
+            <div className="kstars" />
           </div> */}
           <div className="fundo2">
             <div className="stars" />
@@ -46,20 +47,6 @@ export default function PaDaProgramacao() {
       </SecSobreNos>
       {/*  */}
       <SecProgramaçao>
-        <h2>Ola</h2>
-        <div className="card">
-          <div className="dia">
-            <h2>Domingo</h2>
-            <button type="submit">
-              <samp>+</samp>
-            </button>
-          </div>
-          <div className="eventos">
-            <h3>
-              <span>08:00</span> EBD Escola Biblica Dominical
-            </h3>
-          </div>
-        </div>
         <div className="card">
           {' '}
           <div className="dia">
@@ -108,14 +95,22 @@ export default function PaDaProgramacao() {
             </h3>
           </div>
         </div>
+        <div className="card">
+          <div className="dia">
+            <h2>Domingo</h2>
+            <button type="submit">
+              <samp>+</samp>
+            </button>
+          </div>
+          <div className="eventos">
+            <h3>
+              <span>08:00</span> EBD Escola Biblica Dominical
+            </h3>
+          </div>
+        </div>
       </SecProgramaçao>
       {/*  */}
-      <Footerr>
-        <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
-        </footer>
-      </Footerr>
+      <Footer />
     </Container>
   );
 }

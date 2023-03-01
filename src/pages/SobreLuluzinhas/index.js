@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
-import { SecSobreLuluzinhas, SecInicio, Footerr } from './styled';
+import { SecSobreLuluzinhas, SecInicio } from './styled';
+import Footer from '../../components/Footer';
+
 import luluzinhasC from '../../assets/img/luluzinhasC.jpg';
 import luluzinhasI from '../../assets/img/luluzinhasI.jpeg';
 import luluzinhasD from '../../assets/img/luluzinhasD.jpeg';
@@ -97,12 +99,7 @@ export default function SobreLuluzinhas() {
           </div>
         </div>
       </SecSobreLuluzinhas>
-      <Footerr>
-        <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
-        </footer>
-      </Footerr>
+      <Footer />
     </Container>
   );
 }

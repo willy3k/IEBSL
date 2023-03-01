@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
+import Footer from '../../components/Footer';
 import criaças from '../../assets/img/crianças.jpeg';
 import perolas from '../../assets/img/perolas.jpeg';
 import luluzinhas from '../../assets/img/luluzinhas.jpg';
 import bolinhas from '../../assets/img/bolinhas.jpg';
 
-import { Crianças, Perolas, Luluzinhas, Bolinhas, Footerr } from './styled';
+import { Crianças, Perolas, Luluzinhas, Bolinhas } from './styled';
 
 export default function PaDeMinisterios() {
   return (
@@ -77,12 +78,7 @@ export default function PaDeMinisterios() {
           </div>
         </div>
       </Bolinhas>
-      <Footerr>
-        <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
-        </footer>
-      </Footerr>
+      <Footer />
     </Container>
   );
 }

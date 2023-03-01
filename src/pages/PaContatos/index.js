@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
 import { Container } from '../../style/GlobalStyles';
-import Footer from '../Footer';
+import Footer from '../../components/Footer';
 
 import { SecContato } from './styled';
 

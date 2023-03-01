@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
-import { SecSobreCriancas, SecInicio, Footerr } from './styled';
+import Footer from '../../components/Footer';
+
+import { SecSobreCriancas, SecInicio } from './styled';
 import sobreC from '../../assets/img/sobreC.jpeg';
 import EBD from '../../assets/img/diaEBD.jpeg';
 import ebdNaPratica from '../../assets/img/ebdNaPratica.jpeg';
@@ -102,12 +104,7 @@ export default function SobreCriancas() {
           </div>
         </div>
       </SecSobreCriancas>
-      <Footerr>
-        <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
-        </footer>
-      </Footerr>
+      <Footer />
     </Container>
   );
 }
