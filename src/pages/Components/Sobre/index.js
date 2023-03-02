@@ -1,7 +1,7 @@
 import React from 'react';
 // import { FaUserAlt, FaUserTie } from 'react-icons/fa';
 // import { HiUserGroup } from 'react-icons/hi';
-import Sobre from '../../assets/img/fundo.jpg';
+import Sobre from '../../../assets/img/fundo.jpg';
 
 import { Sectionc } from './styled';
 

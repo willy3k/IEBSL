@@ -4,7 +4,7 @@ import criaças from '../../assets/img/crianças.jpeg';
 import perolas from '../../assets/img/perolas.jpeg';
 import luluzinhas from '../../assets/img/luluzinhas.jpg';
 import bolinhas from '../../assets/img/bolinhas.jpg';
-import Footer from '../Footer';
+import Footer from '../Components/Footer';
 
 import { Crianças, Perolas, Luluzinhas, Bolinhas } from './styled';
 

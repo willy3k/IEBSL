@@ -39,7 +39,6 @@ export const Fundo = styled.div`
   }
 
   .Chamada {
-    border: 1px solid red;
     width: 100%;
     display: flex;
     align-items: center;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaUserAlt, FaUserTie } from 'react-icons/fa';
 import { HiUserGroup } from 'react-icons/hi';
-import UserFemale from '../../assets/img/user-female.png';
+import UserFemale from '../../../assets/img/user-female.png';
 
 import { Sectionc } from './styled';
 

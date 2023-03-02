@@ -1,5 +1,5 @@
 import React from 'react';
-import sevis from '../../assets/img/sevirse.jpeg';
+import sevis from '../../../assets/img/sevirse.jpeg';
 import { SectServ } from './styled';
 
 export default function Serviços() {
