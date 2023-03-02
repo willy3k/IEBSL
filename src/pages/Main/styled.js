@@ -13,9 +13,9 @@ export const Fundo = styled.div`
     border-radius: 0 0 15px 15px;
   }
   img {
-    width: 100%;
     filter: brightness(25%);
     object-fit: cover;
+    width: 100%;
     height: 900px;
     /* border-radius: 0 0 15px 15px; */
   }
@@ -39,6 +39,7 @@ export const Fundo = styled.div`
   }
 
   .Chamada {
+    border: 1px solid red;
     width: 100%;
     display: flex;
     align-items: center;

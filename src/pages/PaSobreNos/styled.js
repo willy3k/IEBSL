@@ -3,20 +3,19 @@ import * as colors from '../../config/colors';
 
 export const SecSobreNos = styled.section`
   width: 100%;
-  background: black;
 
   .fundo {
     display: flex;
-    position: relative;
     width: 100%;
+    align-items: center;
     color: white;
   }
 
   img {
-    background: black;
-    opacity: 0.4;
+    filter: brightness(25%);
+    object-fit: cover;
     width: 100%;
-    height: 450px;
+    height: 500px;
   }
   .title {
     width: 100%;
@@ -25,7 +24,6 @@ export const SecSobreNos = styled.section`
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    margin-top: 10rem;
     transition: 1s;
   }
   span {
@@ -43,8 +41,8 @@ export const SecSobreNos = styled.section`
     height: 250px;
 
     img {
-      background: black;
-      opacity: 0.3;
+      /* background: black;
+      opacity: 0.5; */
       width: 100%;
       height: 250px;
     }
@@ -54,7 +52,6 @@ export const SecSobreNos = styled.section`
       justify-content: center;
       flex-direction: column;
       position: absolute;
-      margin-top: 5rem;
     }
     h1 {
       text-align: center;
@@ -64,7 +61,50 @@ export const SecSobreNos = styled.section`
 `;
 
 export const SecHistoria = styled.section`
-  border: 1px solid red;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    padding: 20px;
+    border-bottom: 2px solid ${colors.primaryHeader};
+    margin-bottom: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    padding: 30px;
+  }
+  span {
+    font-weight: 900;
+  }
+`;
+
+export const SecPastoral = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .fPastoral {
+    display: flex;
+    justify-content: center;
+  }
+`;
+
+export const SecFotosHistoricas = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
 `;
 
 export const Footerr = styled.footer`
