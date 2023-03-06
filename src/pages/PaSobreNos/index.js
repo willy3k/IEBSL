@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
 import sobre1 from '../../assets/img/sobre2.jpeg';
+import pastor from '../../assets/img/pastor.jpeg';
+import missionaria from '../../assets/img/missionaria.jpeg';
 
 import {
   SecSobreNos,
@@ -51,16 +53,53 @@ export default function PaSobreNos() {
         </div>
       </SecHistoria>
       <SecPastoral>
-        <h2>Pastor</h2>
+        <h2>Familia Pastoral</h2>
         <div className="fPastoral">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
-            illum repellendus pariatur nemo, id aut expedita voluptatibus non
-          </p>
+          <div className="pastor">
+            <h3>Pastor</h3>
+            <div className="imgs">
+              <img src={pastor} alt="" />
+            </div>
+          </div>
+          <div className="missionaria">
+            <h3>Missionária</h3>
+            <div className="imgs">
+              <img src={missionaria} alt="" />
+            </div>
+          </div>
+          <div className="filhas">
+            <h3>Alice filha</h3>
+            <div className="imgs">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div className="filhas">
+            <h3>Ana Caroline filha</h3>
+            <div className="imgs">
+              <img src="" alt="" />
+            </div>
+          </div>
         </div>
       </SecPastoral>
       <SecFotosHistoricas>
         <h2>Vejá Algumas Fotos</h2>
+        <div className="cards-Photos">
+          <div className="photos">
+            <img src="" alt="" />
+          </div>
+          <div className="photos">
+            <img src="" alt="" />
+          </div>
+          <div className="photos">
+            <img src="" alt="" />
+          </div>
+          <div className="photos">
+            <img src="" alt="" />
+          </div>
+          <div className="photos">
+            <img src="" alt="" />
+          </div>
+        </div>
       </SecFotosHistoricas>
       <Footerr>
         <footer>

@@ -83,27 +83,96 @@ export const SecHistoria = styled.section`
 `;
 
 export const SecPastoral = styled.section`
-  display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 50px 20px;
+  color: white;
+  background: black;
 
   h2 {
+    font-size: 30px;
     padding: 20px 0;
     text-align: center;
   }
+
   .fPastoral {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .pastor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .imgs {
+    width: 400px;
+    height: 600px;
+  }
+
+  img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+  }
+
+  h3 {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .missionaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .filhas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
   }
 `;
 
 export const SecFotosHistoricas = styled.section`
   display: flex;
+  padding: 50px 20px;
   flex-direction: column;
   justify-content: center;
 
   h2 {
     text-align: center;
+  }
+
+  .cards-Photos {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .photos {
+    border: 1px solid;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
   }
 `;
 
