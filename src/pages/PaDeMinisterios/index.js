@@ -1,16 +1,26 @@
 import React from 'react';
 import { Container } from '../../style/GlobalStyles';
+import fundo from '../../assets/img/fundoMI.jpeg';
 import criaças from '../../assets/img/crianças.jpeg';
 import perolas from '../../assets/img/perolas.jpeg';
 import luluzinhas from '../../assets/img/luluzinhas.jpg';
 import bolinhas from '../../assets/img/bolinhas.jpg';
 import Footer from '../Components/Footer';
 
-import { Crianças, Perolas, Luluzinhas, Bolinhas } from './styled';
+import { SecFundo, Crianças, Perolas, Luluzinhas, Bolinhas } from './styled';
 
 export default function PaDeMinisterios() {
   return (
     <Container>
+      <SecFundo>
+        <div className="fundo">
+          <img src={fundo} alt="" />
+          <div className="title">
+            <span>ministérios</span>
+            <h1>Conheça Nossos Ministérios</h1>
+          </div>
+        </div>
+      </SecFundo>
       <Crianças>
         <div className="crianças">
           <div className="imge">

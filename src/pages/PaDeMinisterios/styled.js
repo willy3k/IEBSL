@@ -36,6 +36,65 @@ export const Crianças = styled.section`
     opacity: 0.7;
   }
 `;
+
+export const SecFundo = styled.section`
+  width: 100%;
+
+  .fundo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: white;
+  }
+
+  img {
+    filter: brightness(25%);
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    transition: 1s;
+  }
+  span {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  @media (max-width: 900px) {
+    width: 100%;
+    background: black;
+    height: 250px;
+
+    img {
+      /* background: black;
+    opacity: 0.5; */
+      width: 100%;
+      height: 250px;
+    }
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+    }
+    h1 {
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+`;
 export const Perolas = styled.section`
   color: white;
   background: ${colors.primaryHeader};
