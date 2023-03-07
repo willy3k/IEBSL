@@ -93,13 +93,12 @@ export const SecPastoral = styled.section`
   color: white;
   /* background: ${colors.primaryHeader}; */
   background: black;
-  border: 1px solid red;
 
   h2 {
     font-size: 35px;
     padding: 20px 0;
     text-align: center;
-    text-shadow: 1px 2px 6px black;
+    text-shadow: 1px 2px 4px white;
   }
 
   .fPastoral {
@@ -118,21 +117,22 @@ export const SecPastoral = styled.section`
   }
 
   .imgs {
+    padding: 10px;
     border-radius: 15px;
     width: 400px;
     height: 600px;
-    box-shadow: 1px 2px 10px 1px white;
-    &:hover {
-      transform: scale(1.05);
-      transition: all ease 600ms;
-      cursor: pointer;
-    }
   }
 
   img {
     border-radius: 15px;
     width: 100%;
     height: 100%;
+    box-shadow: 1px 2px 10px 1px white;
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 600ms;
+      cursor: pointer;
+    }
   }
 
   h3 {
@@ -162,11 +162,10 @@ export const SecPastoral = styled.section`
   }
 
   @media (max-width: 600px) {
-    margin: 10px;
-    border-radius: 15px;
     padding: 50px 50px;
 
     .imgs {
+      padding: 10px;
       width: 380px;
       height: 560px;
     }
