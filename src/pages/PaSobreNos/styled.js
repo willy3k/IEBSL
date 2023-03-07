@@ -80,6 +80,11 @@ export const SecHistoria = styled.section`
   span {
     font-weight: 900;
   }
+  @media (max-width: 600px) {
+    /* p {
+    padding: ;
+    } */
+  }
 `;
 
 export const SecPastoral = styled.section`
@@ -156,6 +161,8 @@ export const SecPastoral = styled.section`
   }
 
   @media (max-width: 600px) {
+    padding: 50px 50px;
+
     .imgs {
       width: 380px;
     }
