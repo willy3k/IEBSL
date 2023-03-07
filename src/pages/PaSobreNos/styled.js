@@ -81,9 +81,9 @@ export const SecHistoria = styled.section`
     font-weight: 900;
   }
   @media (max-width: 600px) {
-    /* p {
-    padding: ;
-    } */
+    p {
+      padding: 0;
+    }
   }
 `;
 
