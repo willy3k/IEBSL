@@ -87,6 +87,7 @@ export const SecPastoral = styled.section`
   padding: 50px 20px;
   color: white;
   background: ${colors.primaryHeader};
+  border: 1px solid red;
 
   h2 {
     font-size: 35px;
@@ -152,6 +153,12 @@ export const SecPastoral = styled.section`
     justify-content: center;
     align-items: center;
     margin: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .imgs {
+      width: 380px;
+    }
   }
 `;
 
