@@ -91,7 +91,8 @@ export const SecPastoral = styled.section`
   flex-direction: column;
   padding: 50px 20px;
   color: white;
-  background: ${colors.primaryHeader};
+  /* background: ${colors.primaryHeader}; */
+  background: black;
   border: 1px solid red;
 
   h2 {
@@ -120,7 +121,7 @@ export const SecPastoral = styled.section`
     border-radius: 15px;
     width: 400px;
     height: 600px;
-    box-shadow: 1px 2px 10px 1px black;
+    box-shadow: 1px 2px 10px 1px white;
     &:hover {
       transform: scale(1.05);
       transition: all ease 600ms;
@@ -161,10 +162,13 @@ export const SecPastoral = styled.section`
   }
 
   @media (max-width: 600px) {
+    margin: 10px;
+    border-radius: 15px;
     padding: 50px 50px;
 
     .imgs {
       width: 380px;
+      height: 560px;
     }
   }
 `;
