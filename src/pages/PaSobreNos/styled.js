@@ -86,12 +86,13 @@ export const SecPastoral = styled.section`
   flex-direction: column;
   padding: 50px 20px;
   color: white;
-  background: black;
+  background: ${colors.primaryHeader};
 
   h2 {
-    font-size: 30px;
+    font-size: 35px;
     padding: 20px 0;
     text-align: center;
+    text-shadow: 1px 2px 6px black;
   }
 
   .fPastoral {
@@ -110,8 +111,15 @@ export const SecPastoral = styled.section`
   }
 
   .imgs {
+    border-radius: 15px;
     width: 400px;
     height: 600px;
+    box-shadow: 1px 2px 10px 1px black;
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 600ms;
+      cursor: pointer;
+    }
   }
 
   img {

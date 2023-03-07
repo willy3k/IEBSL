@@ -3,6 +3,8 @@ import { Container } from '../../style/GlobalStyles';
 import sobre1 from '../../assets/img/sobre2.jpeg';
 import pastor from '../../assets/img/pastor.jpeg';
 import missionaria from '../../assets/img/missionaria.jpeg';
+import filha1 from '../../assets/img/filha1.jpeg';
+import filha2 from '../../assets/img/filha2.jpeg';
 
 import {
   SecSobreNos,
@@ -70,13 +72,13 @@ export default function PaSobreNos() {
           <div className="filhas">
             <h3>Alice filha</h3>
             <div className="imgs">
-              <img src="" alt="" />
+              <img src={filha1} alt="" />
             </div>
           </div>
           <div className="filhas">
-            <h3>Ana Caroline filha</h3>
+            <h3>Carol filha</h3>
             <div className="imgs">
-              <img src="" alt="" />
+              <img src={filha2} alt="" />
             </div>
           </div>
         </div>
