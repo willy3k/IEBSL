@@ -56,5 +56,11 @@ export const Sectionc = styled.section`
       width: 100%;
       height: 400px;
     }
+    .descri {
+      margin: none;
+    }
+    .img {
+      margin: none;
+    }
   }
 `;
