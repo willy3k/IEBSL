@@ -10,18 +10,18 @@ export default function Eventos() {
   return (
     <SecEventos>
       <h1>Eventos Anuais</h1>
-      <div className="fPastoral">
-        <div className="pastor">
+      <div className="P-eventos">
+        <div className="caminhada">
           <div className="imgs">
             <img src={caminhada} alt="" />
           </div>
         </div>
-        <div className="missionaria">
+        <div className="simposio">
           <div className="imgs">
             <img src={simposio} alt="" />
           </div>
         </div>
-        <div className="filhas">
+        <div className="congresso">
           <div className="imgs">
             <img src={congressoJovens} alt="" />
           </div>

@@ -13,7 +13,6 @@ export const Sectionc = styled.section`
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 30px 0;
   }
   .descri {
     display: flex;

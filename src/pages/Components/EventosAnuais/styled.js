@@ -11,14 +11,14 @@ export const SecEventos = styled.section`
     text-align: center;
   }
 
-  .fPastoral {
+  .P-eventos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
 
-  .pastor {
+  .caminhada {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +56,7 @@ export const SecEventos = styled.section`
     text-align: center;
   }
 
-  .missionaria {
+  .simposio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +64,7 @@ export const SecEventos = styled.section`
     margin: 20px;
   }
 
-  .filhas {
+  .congresso {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,11 +73,11 @@ export const SecEventos = styled.section`
   }
 
   @media (max-width: 600px) {
-    padding: 30px 50px;
+    padding: 30px 30px;
 
     .imgs {
       padding: 10px;
-      width: 380px;
+      width: 400px;
       height: 540px;
     }
   }
