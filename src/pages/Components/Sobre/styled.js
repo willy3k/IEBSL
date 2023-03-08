@@ -9,6 +9,7 @@ export const Sectionc = styled.section`
   margin: 40px 0 30px 0;
 
   .center1 {
+    width: 100%;
     border: 1px solid;
   }
   .center {
