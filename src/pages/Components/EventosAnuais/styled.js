@@ -9,7 +9,6 @@ export const SecEventos = styled.section`
     font-size: 35px;
     padding: 20px 0;
     text-align: center;
-    text-shadow: 1px 2px 3px black;
   }
 
   .fPastoral {
@@ -38,9 +37,9 @@ export const SecEventos = styled.section`
     border-radius: 15px;
     width: 100%;
     height: 100%;
-    box-shadow: 1px 2px 10px 1px black;
     transition: 1s;
     &:hover {
+      box-shadow: 1px 1px 10px 2px black;
       transform: scale(1.05);
       transition: all ease 600ms;
       cursor: pointer;
@@ -78,8 +77,8 @@ export const SecEventos = styled.section`
 
     .imgs {
       padding: 10px;
-      width: 400px;
-      height: 560px;
+      width: 380px;
+      height: 540px;
     }
   }
 `;
