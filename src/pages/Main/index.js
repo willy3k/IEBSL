@@ -4,6 +4,7 @@ import fundo from '../../assets/img/fundo3.jpeg';
 import Ministerio from '../Components/Ministerios';
 import Cultos from '../Components/Cultos';
 import Sobre from '../Components/Sobre';
+import EventosAnuais from '../Components/EventosAnuais';
 import Serviços from '../Components/Serviços';
 import Footer from '../Components/Footer';
 
@@ -33,6 +34,7 @@ export default function Main() {
       <Ministerio />
       <Cultos />
       <Sobre />
+      <EventosAnuais />
       <Serviços />
       <Footer />
     </Container>
