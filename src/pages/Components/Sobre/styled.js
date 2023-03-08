@@ -3,13 +3,16 @@ import * as colors from '../../../config/colors';
 
 export const Sectionc = styled.section`
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   margin: 40px 0 30px 0;
 
   .center {
     width: 100%;
     display: flex;
-    padding: 10px;
+    align-items: center;
+    padding: 20px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -20,6 +23,7 @@ export const Sectionc = styled.section`
     flex-direction: column;
     align-items: center;
     width: 500px;
+    margin: 0 30px;
   }
   h3 {
     color: ${colors.primaryHeader};
@@ -34,6 +38,7 @@ export const Sectionc = styled.section`
     opacity: 0.8;
   }
   .img {
+    margin: 0 30px;
     display: flex;
     width: 600px;
     height: 400px;

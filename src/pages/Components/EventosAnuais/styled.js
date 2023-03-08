@@ -73,7 +73,7 @@ export const SecEventos = styled.section`
   }
 
   @media (max-width: 600px) {
-    padding: 50px 50px;
+    padding: 30px 50px;
 
     .imgs {
       padding: 10px;

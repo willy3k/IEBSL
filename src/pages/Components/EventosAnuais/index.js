@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from '../../../style/GlobalStyles';
 
 import { SecEventos } from './styled';
 
@@ -9,27 +8,25 @@ import congressoJovens from '../../../assets/img/congressoJovens.jpeg';
 
 export default function Eventos() {
   return (
-    <Container>
-      <SecEventos>
-        <h1>Eventos Anuais</h1>
-        <div className="fPastoral">
-          <div className="pastor">
-            <div className="imgs">
-              <img src={caminhada} alt="" />
-            </div>
-          </div>
-          <div className="missionaria">
-            <div className="imgs">
-              <img src={simposio} alt="" />
-            </div>
-          </div>
-          <div className="filhas">
-            <div className="imgs">
-              <img src={congressoJovens} alt="" />
-            </div>
+    <SecEventos>
+      <h1>Eventos Anuais</h1>
+      <div className="fPastoral">
+        <div className="pastor">
+          <div className="imgs">
+            <img src={caminhada} alt="" />
           </div>
         </div>
-      </SecEventos>
-    </Container>
+        <div className="missionaria">
+          <div className="imgs">
+            <img src={simposio} alt="" />
+          </div>
+        </div>
+        <div className="filhas">
+          <div className="imgs">
+            <img src={congressoJovens} alt="" />
+          </div>
+        </div>
+      </div>
+    </SecEventos>
   );
 }
