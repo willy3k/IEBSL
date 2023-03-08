@@ -45,10 +45,9 @@ export default function PaDeMinisterios() {
           <div className="descr">
             <h2>Encontro das Perolas</h2>
             <span>
-              Ministério voltado para mulheres, que tem como objetivo
-              desenvolver a unidade, crescimento pessoal e, principalmente,
-              crescimento em Jesus. Os nossos encontros ocorrem toda sabádos às
-              2h.
+              Ministério voltado para mulheres, que procura desenvolver a
+              unidade, crescimento pessoal e, principalmente, crescimento em
+              Jesus. Os nossos encontros ocorrem todos os sábados às 2h.
             </span>
           </div>
           <div className="imge">
@@ -65,10 +64,9 @@ export default function PaDeMinisterios() {
           <div className="descr">
             <h2>Luluzinhas</h2>
             <span>
-              Ministério voltado para Jovens mulheres, que tem como objetivo
-              desenvolver a unidade, crescimento pessoal e, principalmente,
-              crescimento em Jesus. Os nossos encontros ocorrem toda as
-              sexta-feira às 18h.
+              Ministério voltado para Jovens mulheres, que procura desenvolver a
+              unidade, crescimento pessoal e, principalmente, crescimento em
+              Jesus. Os nossos encontros ocorrem todas as sexta-feira às 18h.
             </span>
           </div>
         </div>
@@ -78,9 +76,9 @@ export default function PaDeMinisterios() {
           <div className="descr">
             <h2>Encontro dos Bolinhas</h2>
             <span>
-              Ministério voltado para homens, que tem como objetivo desenvolver
-              a unidade, crescimento pessoal e, principalmente, crescimento em
-              Jesus. Os nossos encontros ocorrem todo sexta ás 18h30.
+              Ministério voltado para homens, cujo objetivo é desenvolver a
+              unidade, crescimento pessoal e, principalmente, crescimento em
+              Jesus. Os nossos encontros ocorrem todo sexta às 18h30.
             </span>
           </div>
           <div className="imge">

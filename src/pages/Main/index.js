@@ -18,7 +18,7 @@ export default function Main() {
           <img src={fundo} alt="" />
           <div className="Chamada">
             <h1>Venha nos visitar!</h1>
-            <span>Panelas,PE, são lazaro</span>
+            <span>Panelas, PE, são lazaro</span>
             <a
               href="https://www.instagram.com/ieb.saolazaro/"
               target="_blank"
@@ -26,7 +26,7 @@ export default function Main() {
             >
               <button type="submit">Instagram</button>
             </a>
-            <h3>Role a página para mais informaçõe</h3>
+            <h3>Role a página para mais informações</h3>
           </div>
         </div>
       </Fundo>

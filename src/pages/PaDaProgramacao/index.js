@@ -45,7 +45,6 @@ export default function PaDaProgramacao() {
       </SecSobreNos>
       {/*  */}
       <SecProgramaçao>
-        <h2>Ola</h2>
         <div className="card">
           <div className="dia">
             <h2>Domingo</h2>
@@ -55,7 +54,7 @@ export default function PaDaProgramacao() {
           </div>
           <div className="eventos">
             <h3>
-              <span>08:00</span> EBD Escola Biblica Dominical
+              <span>08:00</span> EBD Escola Bíblica Dominical
             </h3>
           </div>
         </div>
@@ -100,7 +99,7 @@ export default function PaDaProgramacao() {
           </div>
           <div className="eventos">
             <h3>
-              <span>10:00</span> EBD Escola Biblica Dominical Das Crianças
+              <span>10:00</span> EBD Escola Bíblica Dominical Das Crianças
             </h3>
             <h3>
               <span>06:30</span> Culto de Adoração
@@ -111,8 +110,8 @@ export default function PaDaProgramacao() {
       {/*  */}
       <Footerr>
         <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
+          <h4>@ Igreja Evangelica Batista Em São Lazaro </h4>
+          <h5>IEBSL</h5>
         </footer>
       </Footerr>
     </Container>

@@ -13,7 +13,7 @@ export default function SobrePerolas() {
         <div className="fundo">
           <img src={perolas} alt="" />
           <div className="title">
-            <span>PEROLAS</span>
+            <span>PÉROLAS</span>
             <h1>Nosso Ministérios De mulheres</h1>
           </div>
         </div>
@@ -22,10 +22,10 @@ export default function SobrePerolas() {
         <h2>Ministério de Mulheres</h2>
         <div className="card">
           <p>
-            Ministério com Mulheres Chamado de Perolas. <br />
+            Ministério com Mulheres Chamado de Pérolas. <br />
             Durante o sábado pela tarde as 2h, as Mulheres participam de uma
-            encontro. O objetivo desse encontro é ensinar a Bíblia,e mostrando o
-            amor de Deus e aprender que justas São mais fortes.
+            encontro. O objetivo desse encontro é ensinar a Bíblia, e mostrando
+            o amor de Deus e aprender que justas São mais fortes.
           </p>
         </div>
         <div className="card segundo">
@@ -34,10 +34,10 @@ export default function SobrePerolas() {
               <img src={perolas} alt="" />
             </div>
             <div className="desc">
-              <h2>Culto da Familía</h2>
+              <h2>Culto da Família</h2>
               <p>
-                Culto da familía, Esse dia foi maravilhoso, Nossas Perolas
-                cantando, que dia inesquecivel, Deus sejá Louvado por essas
+                Culto da família, Esse dia foi maravilhoso, Nossas Perolas
+                cantando, que dia inesquecível, Deus seja Louvado por essas
                 Mulheres de Deus, esse grupo e uma benção em nossa igreja.
               </p>
             </div>
@@ -47,11 +47,11 @@ export default function SobrePerolas() {
         <div className="card">
           <div className="cards">
             <div className="desc">
-              <h2>Encontro das perolas</h2>
+              <h2>Encontro das pérolas</h2>
               <p>
                 Esse grupo de mulheres, é muito determinado, Elas não param, se
-                Deus da uma missão a elas, elas não pensam duas vezes para
-                fazer, estão em constante oração umas pelas as outras.
+                Deus dá, uma missão a elas, elas não pensam duas vezes para
+                fazer, estão em constante oração umas pelas outras.
               </p>
             </div>
             <div className="imge">
@@ -68,11 +68,11 @@ export default function SobrePerolas() {
             <div className="desc">
               <h2>Encontro na casa da irmão Fatma</h2>
               <p>
-                Encontro abençoado na casa da irmão fatma, Uma visita abençoada,
+                ncontro abençoado na casa da irmã fatma, Uma visita abençoada,
                 Como e bom momentos como esses, assim como os outros grupos,
-                Deus fala grandemente na vida dessas bençãos.´Provébios 14:1 A
+                Deus fala grandemente na vida dessas bençãos.` Provérbios 14:1 A
                 mulher sábia edifica a suas casa, mais com as próprias mãos a
-                insensata derruba a sua casa´.
+                insensata, derruba a sua casa`.
               </p>
             </div>
           </div>
@@ -81,12 +81,12 @@ export default function SobrePerolas() {
         <div className="card">
           <div className="cards">
             <div className="desc">
-              <h2>Lanche das Perolas</h2>
+              <h2>Lanche das Pérolas</h2>
               <p>
                 Essas Perolas, são demais, todos os encontro depois, tem um
-                lanchinho que uma delicia, depois de uma encontro abençoado,
-                lanchar e conversa um pouco, por que isso trás, uma comunhão
-                maravilhosa e saúdavel.
+                lanchinho que uma delícia, depois de um encontro abençoado,
+                lanchar e conversa um pouco, por que isso traz, uma comunhão
+                maravilhosa e saudável.
               </p>
             </div>
             <div className="imge">
@@ -97,8 +97,8 @@ export default function SobrePerolas() {
       </SecSobrePerolas>
       <Footerr>
         <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
+          <h4>@ Igreja Evangelica Batista Em São Lazaro </h4>
+          <h5>IEBSL</h5>
         </footer>
       </Footerr>
     </Container>

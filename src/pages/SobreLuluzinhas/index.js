@@ -24,7 +24,7 @@ export default function SobreLuluzinhas() {
         <div className="card">
           <p>
             Ministério Com Jovens Mulheres. <br />
-            Todas as sextas ás 6h, as meninas participam de um encontro. O
+            Todas as sextas às 6h, as meninas participam de um encontro. O
             objetivo desse encontro é ensinar a Bíblia, mostrando o amor de Deus
             e os ensinamentos de Sua Palavra.
           </p>
@@ -37,9 +37,9 @@ export default function SobreLuluzinhas() {
             <div className="desc">
               <h2>Congregação de Jovens Mulheres</h2>
               <p>
-                Momento Depois de um congresso de joven, maravilho e muito
+                Momento Depois de um congresso de jovem, maravilho e muito
                 edificante, Nesse congresso, aprendemos a ser como cristo, e o
-                que devemos fazer a parti disso, Eu sou a Luz do Mundo e você?
+                que devemos fazer a parti disso, eu sou a Luz do Mundo e você?
               </p>
             </div>
           </div>
@@ -48,9 +48,9 @@ export default function SobreLuluzinhas() {
         <div className="card">
           <div className="cards">
             <div className="desc">
-              <h2>Paceio piquiniquer das Luluzinhas</h2>
+              <h2>Passeio piquenique das Luluzinhas</h2>
               <p>
-                Encontro diferente, Elas se reúniram, e marcaram de fazer um dia
+                Encontro diferente, Elas se reuniram, e marcaram de fazer um dia
                 deferente, las elas não só se divertiram como também aprenderam,
                 de Cristo.
               </p>
@@ -71,8 +71,8 @@ export default function SobreLuluzinhas() {
               <p>
                 Encontro na casa de Senhor, compartilhando e aprendendo cada vez
                 mais de Deus, e ensinando por qual caminho elas devem andar,
-                juntas elas aprendem e ensinam umas as outras, com testemunhos e
-                esperiencas de vida.
+                juntas elas aprendem e ensinam umas, as outras, com testemunhos
+                e experiencias de vida.
               </p>
             </div>
           </div>
@@ -83,12 +83,13 @@ export default function SobreLuluzinhas() {
             <div className="desc">
               <h2>Encontro abençoado na Casa do Senhor</h2>
               <p>
-                Esse Ministério assim como os outro, tem um papel muito
-                importante pois é nesses momentos que elas se abrem pedem ajuda,
-                pede conseilhos e assim ganhando a confiança umas das outras,
-                para que assim possam crescer espiritualmente, e também Como
-                mulheres de Deus, para que quando cheguer as adivercidades, elas
-                saibem lhe da com elas, e assim permanesserem em cristo Jesus.
+                Esse Ministério, assim como os outro, tem um papel muito
+                importante, pois é nesses momentos que elas se abrem, pedem
+                ajuda, pede conselhos e assim ganhando a confiança umas das
+                outras, para que assim possam crescer espiritualmente, e também
+                Como mulheres de Deus, para que quando cheguem as diversidades,
+                elas sabem lhe da com elas, e assim permanecerem em cristo
+                Jesus.
               </p>
             </div>
             <div className="imge">
@@ -99,8 +100,8 @@ export default function SobreLuluzinhas() {
       </SecSobreLuluzinhas>
       <Footerr>
         <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
+          <h4>@ Igreja Evangelica Batista Em São Lazaro </h4>
+          <h5>IEBSL</h5>
         </footer>
       </Footerr>
     </Container>

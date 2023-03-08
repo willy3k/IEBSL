@@ -9,7 +9,7 @@ export default function Ministerio() {
   return (
     <Sectionc>
       <h2 className="title">Ministérios</h2>
-      <span>Conheça os ministério de nossa igreja:</span>
+      <span>Conheça os ministérios da nossa igreja:</span>
 
       <div className="section-ministerial">
         <div className="card">
@@ -24,8 +24,8 @@ export default function Ministerio() {
           <HiUserGroup className="i" />
           <h2>Perolas</h2>
           <p>
-            Todos os Sábados, as 2h temos o encontro da Mulheres, em lugares
-            diferetes{' '}
+            Todos os sábados, as 2h temos o encontro das Mulheres, em lugares
+            diferentes{' '}
           </p>
           <a href="/SobrePerolas">
             <button type="submit">Saiba mais </button>
@@ -47,7 +47,7 @@ export default function Ministerio() {
           <h2>Bolinhas</h2>
           <p>
             O Ministério de Homens, se reúne todas as sextas, em lugares
-            diferetes, as 6h:30m.
+            diferentes, as 6h: 30 m.
           </p>
           <a href="/SobreBolinhas">
             <button type="submit">Saiba mais</button>

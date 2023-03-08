@@ -51,7 +51,7 @@ export default function PaContato() {
   return (
     <Container>
       <SecContato>
-        <h1>Entre em Contato</h1>
+        <h1>Entre em Contacto</h1>
         <form onSubmit={sendEmail}>
           <label htmlFor="nome">
             Nome

@@ -32,18 +32,18 @@ export default function PaSobreNos() {
         <div className="historia">
           <p>
             {' '}
-            HÁ 17 ANOS ATRÁS, A EQUIPE DE MISSÕES MINISTÉRIO RASE RESOLVEU
-            VOLTAR AO VILAREJO DE SÃO LÁZARO 8 ANOS APÓS O PRIMEIRO CONTATO E A
-            FORMAÇÃO DE UMA CONGREGAÇÃO QUE FICOU NA RESPONSABILIDADE DA IGREJA
-            DE CUPIRA QUE NÃO DEU CONTINUIDADE AO TRABALHO E O MINBISTÉIO PAROU.
+            HÁ 17 ANOS, A EQUIPE DE MISSÕES MINISTÉRIO RASE RESOLVEU VOLTAR AO
+            VILAREJO DE SÃO LÁZARO 8 ANOS APÓS O PRIMEIRO CONTATO E A FORMAÇÃO
+            DE UMA CONGREGAÇÃO QUE FICOU NA RESPONSABILIDADE DA IGREJA DE CUPIRA
+            QUE NÃO DEU CONTINUIDADE AO TRABALHO E O MINISTÉRIO PAROU.
             <br />
             <br />
             RETORNANDO COM O MINISTÉRIO RASE UMA VEZ POR MÊS FAZENDO VISITAS,
             CULTO, ATIVIDADES COM CRIANÇAS E AÇÃO SOCIAL.
             <br />
             INICIAMOS UMA PARCERIA COM A ONG MINHA ESPERANÇA O QUAL SE ENCERROU
-            EM 2012, O QUAL DEU-SE O INÍCIO DA IGREJA COM A FREQUENCIA E
-            ORGANIZAÇÃO DAS ATIVIDADES COMO MINISTERIO INFANTIL, LOUVOR,
+            EM 2012, O QUAL DEU-SE O INÍCIO DA IGREJA COM A FREQUÊNCIA E
+            ORGANIZAÇÃO DAS ATIVIDADES COMO MINISTÉRIO INFANTIL, LOUVOR,
             COREOGRAFIA, TEATRO, DIACONATO, OS GRUPOS PEQUENOS E ORGANIZAÇÕES.
             <br />
             <br />
@@ -55,7 +55,7 @@ export default function PaSobreNos() {
         </div>
       </SecHistoria>
       <SecPastoral>
-        <h2>Familia Pastoral</h2>
+        <h2>Família Pastoral</h2>
         <div className="fPastoral">
           <div className="pastor">
             <h3>Pastor</h3>
@@ -105,8 +105,8 @@ export default function PaSobreNos() {
       </SecFotosHistoricas>
       <Footerr>
         <footer>
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
+          <h4>@ Igreja Evangelica Batista Em São Lazaro </h4>
+          <h5>IEBSL</h5>
         </footer>
       </Footerr>
     </Container>

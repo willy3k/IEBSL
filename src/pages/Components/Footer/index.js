@@ -6,8 +6,8 @@ export default function Footer() {
     <div>
       <SectFoot>
         <div className="foote">
-          <h4>@ Igreja Batista Evangelica Em São Lazaro </h4>
-          <h5>IBESL</h5>
+          <h4>@ Igreja Evangélica Batista Em São Lázaro </h4>
+          <h5>IEBSL</h5>
         </div>
       </SectFoot>
     </div>
