@@ -8,6 +8,9 @@ export const Sectionc = styled.section`
   padding: 20px;
   margin: 40px 0 30px 0;
 
+  .center1 {
+    border: 1px solid;
+  }
   .center {
     width: 100%;
     display: flex;
