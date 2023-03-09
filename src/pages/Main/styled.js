@@ -8,6 +8,7 @@ export const Fundo = styled.div`
   .div-fundo {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     color: white;
     border-radius: 0 0 15px 15px;
