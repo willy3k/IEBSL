@@ -9,6 +9,7 @@ export const SecSobreNos = styled.section`
     width: 100%;
     align-items: center;
     color: white;
+    justify-content: center;
   }
 
   img {
@@ -90,9 +91,9 @@ export const SecHistoria = styled.section`
 export const SecPastoral = styled.section`
   flex-direction: column;
   padding: 50px 20px;
-  color: white;
+  color: black;
   /* background: ${colors.primaryHeader}; */
-  background: black;
+  background: whitesmoke;
 
   h2 {
     font-size: 35px;
@@ -127,7 +128,7 @@ export const SecPastoral = styled.section`
     border-radius: 15px;
     width: 100%;
     height: 100%;
-    box-shadow: 1px 2px 10px 1px white;
+    box-shadow: 1px 1px 20px 3px black;
     transition: 1s;
     &:hover {
       transform: scale(1.05);
@@ -175,30 +176,40 @@ export const SecPastoral = styled.section`
 
 export const SecFotosHistoricas = styled.section`
   display: flex;
-  padding: 50px 20px;
+  padding: 50px 0px;
   flex-direction: column;
   justify-content: center;
 
   h2 {
+    padding: 20px;
+    font-size: 35px;
     text-align: center;
   }
 
   .cards-Photos {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background: whitesmoke;
   }
   .photos {
-    border: 1px solid;
+    border-radius: 15px;
     width: 350px;
     height: 500px;
-    margin: 10px;
+    margin: 30px;
+    transition: 1s;
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 600ms;
+      cursor: pointer;
+      box-shadow: 1px 1px 20px 3px black;
+    }
   }
   img {
     width: 100%;
     height: 100%;
+    border-radius: 15px;
   }
 `;
 
@@ -206,8 +217,8 @@ export const Footerr = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: ${colors.primaryDarkColor};
-  color: white;
+  background: white;
+  color: black;
   padding: 30px;
 
   footer {

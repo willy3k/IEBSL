@@ -6,6 +6,13 @@ import missionaria from '../../assets/img/missionaria.jpeg';
 import filha1 from '../../assets/img/filha1.jpeg';
 import filha2 from '../../assets/img/filha2.jpeg';
 
+// fotos historicas
+import caminhada from '../../assets/img/cami.jpeg';
+import culto from '../../assets/img/cult.jpeg';
+import cultoC from '../../assets/img/cultC.jpeg';
+import juventudde from '../../assets/img/ju.jpeg';
+import congresso from '../../assets/img/con.jpeg';
+
 import {
   SecSobreNos,
   SecHistoria,
@@ -87,19 +94,19 @@ export default function PaSobreNos() {
         <h2>Vejá Algumas Fotos</h2>
         <div className="cards-Photos">
           <div className="photos">
-            <img src="" alt="" />
+            <img src={caminhada} alt="" />
           </div>
           <div className="photos">
-            <img src="" alt="" />
+            <img src={culto} alt="" />
           </div>
           <div className="photos">
-            <img src="" alt="" />
+            <img src={cultoC} alt="" />
           </div>
           <div className="photos">
-            <img src="" alt="" />
+            <img src={juventudde} alt="" />
           </div>
           <div className="photos">
-            <img src="" alt="" />
+            <img src={congresso} alt="" />
           </div>
         </div>
       </SecFotosHistoricas>

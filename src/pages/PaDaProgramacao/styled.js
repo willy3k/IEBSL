@@ -7,9 +7,9 @@ export const SecSobreNos = styled.section`
 
   .fundo {
     display: flex;
-    /* position: relative; */
     width: 100%;
     color: white;
+    justify-content: center;
   }
   .fundo2 {
     background: linear-gradient(0, black, #000000);
@@ -163,8 +163,8 @@ export const Footerr = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: ${colors.primaryDarkColor};
-  color: white;
+  background: white;
+  color: black;
   padding: 30px;
 
   footer {

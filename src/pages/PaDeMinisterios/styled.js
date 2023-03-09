@@ -45,6 +45,7 @@ export const SecFundo = styled.section`
     width: 100%;
     align-items: center;
     color: white;
+    justify-content: center;
   }
 
   img {
