@@ -60,6 +60,7 @@ export const Fundo = styled.div`
     }
 
     img {
+      border-radius: 0;
       height: 250px;
     }
   }

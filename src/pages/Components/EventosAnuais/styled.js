@@ -1,12 +1,9 @@
 import styled from 'styled-components';
-import * as colors from '../../../config/colors';
 
 export const SecEventos = styled.section`
   flex-direction: column;
   padding: 50px 20px;
-  /* margin: 5px; */
   background: whitesmoke;
-  /* box-shadow: 1px 2px 9px 1px ${colors.primaryHeader}; */
   border-radius: 15px;
   color: black;
   margin-bottom: 30px;
@@ -80,6 +77,8 @@ export const SecEventos = styled.section`
 
   @media (max-width: 600px) {
     padding: 30px 30px;
+    border-radius: 0;
+    box-shadow: none;
 
     .imgs {
       padding: 10px;
