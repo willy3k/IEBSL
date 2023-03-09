@@ -1,9 +1,15 @@
 import styled from 'styled-components';
+import * as colors from '../../../config/colors';
 
 export const SecEventos = styled.section`
   flex-direction: column;
   padding: 50px 20px;
+  /* margin: 5px; */
+  background: whitesmoke;
+  /* box-shadow: 1px 2px 9px 1px ${colors.primaryHeader}; */
+  border-radius: 15px;
   color: black;
+  margin-bottom: 30px;
 
   h1 {
     font-size: 35px;
